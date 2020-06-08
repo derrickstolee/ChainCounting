@@ -357,7 +357,9 @@ int ChainManager::isSolution()
  */
 char* ChainManager::writeSolution()
 {
-	return "";
+	char *ret = (char *)malloc(1);
+	ret[0] = 0;
+	return ret;
 }
 
 /**
